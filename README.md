@@ -15,5 +15,7 @@
 - [📝 Clase 05 - Aplicacion Practica en Typescript](./Clase-05/Clase-05-Aplicacion-Practica-Typescript.md)
 - [📝 Clase 06 - Preparando entorno](./Clase-06/Clase-06-Preparando-entorno.md)
 - [📝 Clase 06 - Introduccion a Bases Datos](./Clase-06/Clase-06-Introduccion-Bases-Datos.md)
+- [📝 Clase 07 - Modelado de datos](./Clase-07/Clase-07-Modelado-de-datos.md)
+- [📝 Clase 07 - Consultas SQL](./Clase-07/Clase-07-Consultas-SQL.md)
 
 > Agregaré más enlaces a medida que se creen nuevas clases.
