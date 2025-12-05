@@ -1,5 +1,8 @@
 // Seleccionar base de datos
-db = db.getSiblingDB('tutorial_mongo');
+db = db.getSiblingDB('tutorial_mongo'); // cambiar por el nombre de la base de datos
+
+// db.authors.drop();
+// db.books.drop();
 
 // ===== Seed: autores =====
 const authors = [

@@ -22,5 +22,6 @@
 - [📝 Clase 08 - Ejercicios MySql Completos](./Clase-08/ejercicios_mysql_completos.md)
 - [📝 Clase 09 - No Relacionales: MongoDB](./Clase-09/Clase-09-No-Relacionales-MongoDB.md)
 - [📝 Clase 09 - SQL vs NoSQL](./Clase-09/SQL_NoSQL.md)
+- [📝 Clase 10 - Intro Mongo](./Clase-10/Clase-10-Intro-Mongo.md)
 
 > Agregaré más enlaces a medida que se creen nuevas clases.
