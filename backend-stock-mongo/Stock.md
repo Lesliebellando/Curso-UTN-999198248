@@ -17,6 +17,8 @@ name
 CRUD tanto de Productos como de Categorias
 
 modelo >> servicio >> controller >> router >> index
+|| || || ||
+(q usa) (q usa) (q usa) (middlewares)
 
 index >> router >> controller >> servicio >> modelo
 
@@ -51,3 +53,13 @@ curl -X DELETE http://localhost:3000/api/categoria/6969868862b4bef89b9e671a
 que hace falta??? validaciones!!!!
 
 despues como plus podemos ver de usar el middleware authorize para bloquear las rutas create, update & delete
+
+curl http://localhost:3000/api/producto
+
+curl http://localhost:3000/api/producto/697016f417d05a0e5405c4ec
+
+curl -X POST http://localhost:3000/api/producto -H "Content-Type: application/json" -d '{"name":"Producto Ejemplo", "description" : "el mejor producto del mundo", "price" : 999.99, "stock" : 1, "categoryId" : "696986dd62b4bef89b9e6720"}'
+
+curl -X PUT http://localhost:3000/api/producto/69701df701c30afa1a593cf2 -H "Content-Type: application/json" -d '{"name":"Producto Actualizado"}'
+
+curl -X DELETE http://localhost:3000/api/producto/69701df701c30afa1a593cf2

@@ -1,7 +1,7 @@
 import { populate } from 'dotenv';
-import mongoose, { Schema } from 'mongoose';
+import mongoose, { Schema, Document } from 'mongoose';
 
-export interface IProduct {
+export interface IProduct extends Document {
   name: string;
   description?: string; // ? Campo opcional
   price: number;
@@ -19,7 +19,7 @@ const productSchema = new Schema<IProduct>(
     stock: { type: Number, required: true, min: 0 },
     categoryId: { type: Schema.Types.ObjectId, required: true },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 productSchema.index({ name: 1 });
