@@ -1,3 +1,9 @@
+/**
+ * @file index.ts
+ * @description Main entry point for the Stock Management Backend API.
+ * Configures Express, middleware, routes, and connects to MongoDB.
+ */
+
 import express, { Request, Response } from 'express';
 import path from 'path';
 
@@ -55,7 +61,9 @@ app.get('/api/test-error', (req, res, next) => {
 // Middleware de manejo de errores global (debe ser el último)
 app.use(errorHandler);
 
-// Conectar a MongoDB y luego iniciar el servidor HTTP
+/**
+ * Connects to the database and starts the HTTP server.
+ */
 connectDB().then(() => {
   app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT} 🚀`);

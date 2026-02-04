@@ -1,6 +1,17 @@
 import { Request, Response, NextFunction } from 'express';
 import { AppError } from '../types/appError';
 
+/**
+ * Global error handler middleware for Express.
+ * Handles different types of errors (AppError, Mongoose CastError, ValidationError, etc.)
+ * and returns a structured JSON response.
+ * 
+ * @param {Error} err - The error object.
+ * @param {Request} req - Express request object.
+ * @param {Response} res - Express response object.
+ * @param {NextFunction} next - Express next function.
+ * @returns {Response} JSON response with error details.
+ */
 export const errorHandler = (
     err: Error,
     req: Request,
