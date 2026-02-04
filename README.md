@@ -39,5 +39,6 @@
 - Clase 22 - Sin documentos, avances sobre backend-stock-mongo.
 - [📝 Clase 23 - Introduccion a Servidores](./Clase-23/Clase-23-Introduccion-a-Servidores.md)
 - [📝 Clase 24 - Integrando Back y Front End](./Clase-24/Clase-24-Integrando-Back-y-Front-End.md)
+- [📝 Clase 26 - Introduccion al Prompt Engineering](./Clase-26/Clase-26-Introduccion-al-Prompt-Engineering.md)
 
 > Agregaré más enlaces a medida que se creen nuevas clases.
